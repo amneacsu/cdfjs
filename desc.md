@@ -1,3 +1,5 @@
+https://cdf.gsfc.nasa.gov/html/cdf_docs.html
+
 1. magic numbers
  * 0xCDF26002 (4-byte, unsigned integer with big-endian byte ordering)
    (Pre-V2.6, it is 0x0000FFFF.)
