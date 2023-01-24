@@ -1,0 +1,16 @@
+export enum InternalRecordType {
+  CDR = 1,
+  GDR = 2,
+  rVDR = 3,
+  ADR = 4,
+  AgrEDR = 5,
+  VXR = 6,
+  VVR = 7,
+  zVDR = 8,
+  AzEDR = 9,
+  CCR = 10,
+  CPR = 11,
+  SPR = 12,
+  CVVR = 13,
+  UIR = -1,
+}
