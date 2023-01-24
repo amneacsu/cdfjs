@@ -1,9 +1,9 @@
-const readInt32BE = require('../readInt32BE');
-const readText = require('../readText');
+import { readInt32BE } from '../readInt32BE';
+import { readText } from '../readText';
 
 const readName = readText(64);
 
-module.exports = {
+export default {
   ADRnext: readInt32BE,
   AgrEDRhead: readInt32BE,
   Scope: readInt32BE,

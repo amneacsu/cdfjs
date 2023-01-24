@@ -1,4 +1,4 @@
-const readInternalRecord = require('./readInternalRecord');
+import { readInternalRecord } from './readInternalRecord';
 
 class CDF {
   constructor(data) {
@@ -33,6 +33,6 @@ class CDF {
   }
 }
 
-module.exports = function(data) {
+export default function(data) {
   return new CDF(data);
 };

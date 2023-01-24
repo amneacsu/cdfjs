@@ -1,5 +1,5 @@
-const fs = require('fs');
-const cdfjs = require('../');
+import fs from 'fs';
+import cdfjs from '../';
 
 it('foos', () => {
   const data = fs.readFileSync('./samples/genesis_3dl2_gim_20040101_v01.cdf');

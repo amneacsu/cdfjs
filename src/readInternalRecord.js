@@ -1,6 +1,6 @@
-const descriptors = require('./descriptors');
+import descriptors from './descriptors';
 
-module.exports = (buf, offset) => {
+export const readInternalRecord = (buf, offset) => {
   const RecordSize = buf.readInt32BE(offset + 0);
   const RecordType = buf.readInt32BE(offset + 4);
 

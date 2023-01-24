@@ -1,6 +1,6 @@
-const readInt32BE = require('../readInt32BE');
+import { readInt32BE } from '../readInt32BE';
 
-module.exports = {
+export default {
   rVDRhead: readInt32BE,
   zVDRhead: readInt32BE,
   ADRhead: readInt32BE,

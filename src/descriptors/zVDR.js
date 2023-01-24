@@ -1,9 +1,9 @@
-const readInt32BE = require('../readInt32BE');
-const readText = require('../readText');
+import { readInt32BE } from '../readInt32BE';
+import { readText } from '../readText';
 
 const readName = readText(64);
 
-module.exports = {
+export default {
   // The file offset of the next VDR. Beginning with CDF V2.1 the last VDR will
   // containa a file offset of 0x00000000 in this field (to indicate the end of
   // the VDRs). Prior to CDF V2.1 this file offset is undefined in the last VDR.

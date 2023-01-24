@@ -1,7 +1,7 @@
-const readInt32BE = require('../readInt32BE');
-const readText = require('../readText');
+import { readInt32BE } from '../readInt32BE';
+import { readText } from '../readText';
 
-module.exports = {
+export default {
   GDRoffset: readInt32BE,
   Version: readInt32BE,
   Release: readInt32BE,
