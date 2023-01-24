@@ -1,15 +1,9 @@
 {
   "name": "cdfjs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": ">=6.4"
-  },
-  "engineStrict": true,
   "scripts": {
     "test": "node src/__tests__"
   },
-  "author": "",
   "license": "ISC"
 }
