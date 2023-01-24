@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node src/__tests__"
+    "test": "jest"
   },
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
